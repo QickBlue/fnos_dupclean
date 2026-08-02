@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+  <rect width="960" height="260" fill="#f7f9fc"/>
+  <text x="40" y="42" font-size="19" font-weight="700" fill="#1f2937">使用流程</text>
+  <text x="40" y="66" font-size="12.5" fill="#6b7280">六步完成重复文件扫描与清理</text>
+
+  <!-- step definitions -->
+  <!-- 1 -->
+  <g transform="translate(40,92)">
+    <rect width="136" height="120" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="68" cy="34" r="18" fill="#2563EB"/>
+    <text x="68" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+    <text x="68" y="70" font-size="13.5" font-weight="600" fill="#111827" text-anchor="middle">授权目录</text>
+    <text x="68" y="90" font-size="11" fill="#6b7280" text-anchor="middle">fnOS 中把共享</text>
+    <text x="68" y="104" font-size="11" fill="#6b7280" text-anchor="middle">目录授权给本应用</text>
+  </g>
+  <!-- 2 -->
+  <g transform="translate(196,92)">
+    <rect width="136" height="120" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="68" cy="34" r="18" fill="#2563EB"/>
+    <text x="68" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+    <text x="68" y="70" font-size="13.5" font-weight="600" fill="#111827" text-anchor="middle">添加目录</text>
+    <text x="68" y="90" font-size="11" fill="#6b7280" text-anchor="middle">点「浏览」图形化</text>
+    <text x="68" y="104" font-size="11" fill="#6b7280" text-anchor="middle">选择，或粘贴路径</text>
+  </g>
+  <!-- 3 -->
+  <g transform="translate(352,92)">
+    <rect width="136" height="120" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="68" cy="34" r="18" fill="#2563EB"/>
+    <text x="68" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+    <text x="68" y="70" font-size="13.5" font-weight="600" fill="#111827" text-anchor="middle">配置扫描</text>
+    <text x="68" y="90" font-size="11" fill="#6b7280" text-anchor="middle">算法 / 最小大小 /</text>
+    <text x="68" y="104" font-size="11" fill="#6b7280" text-anchor="middle">排除规则 / 隔离区</text>
+  </g>
+  <!-- 4 -->
+  <g transform="translate(508,92)">
+    <rect width="136" height="120" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="68" cy="34" r="18" fill="#2563EB"/>
+    <text x="68" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+    <text x="68" y="70" font-size="13.5" font-weight="600" fill="#111827" text-anchor="middle">开始扫描</text>
+    <text x="68" y="90" font-size="11" fill="#6b7280" text-anchor="middle">Rust 引擎后台运行</text>
+    <text x="68" y="104" font-size="11" fill="#6b7280" text-anchor="middle">可关页面继续</text>
+  </g>
+  <!-- 5 -->
+  <g transform="translate(664,92)">
+    <rect width="136" height="120" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+    <circle cx="68" cy="34" r="18" fill="#2563EB"/>
+    <text x="68" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+    <text x="68" y="70" font-size="13.5" font-weight="600" fill="#111827" text-anchor="middle">查看重复组</text>
+    <text x="68" y="90" font-size="11" fill="#6b7280" text-anchor="middle">分页浏览、查看</text>
+    <text x="68" y="104" font-size="11" fill="#6b7280" text-anchor="middle">可释放空间</text>
+  </g>
+  <!-- 6 -->
+  <g transform="translate(820,92)">
+    <rect width="100" height="120" rx="14" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <circle cx="50" cy="34" r="18" fill="#059669"/>
+    <text x="50" y="40" font-size="17" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+    <text x="50" y="70" font-size="13.5" font-weight="600" fill="#065f46" text-anchor="middle">清理</text>
+    <text x="50" y="90" font-size="11" fill="#047857" text-anchor="middle">选策略 / 手动</text>
+    <text x="50" y="104" font-size="11" fill="#047857" text-anchor="middle">隔离区或删除</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#cbd5e1" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M178,150 H192"/>
+    <path d="M334,150 H348"/>
+    <path d="M490,150 H504"/>
+    <path d="M646,150 H660"/>
+    <path d="M802,150 H816"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#cbd5e1"/>
+    </marker>
+  </defs>
+</svg>
